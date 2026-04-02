@@ -45,15 +45,15 @@ export const SpendingBreakdown = ({ transactions }: SpendingBreakdownProps) => {
         </div>
       </div>
       {data.length > 0 ? (
-        <ResponsiveContainer width="100%" height={300}>
+        <ResponsiveContainer width="100%" height={350}>
           <PieChart>
             <Pie
               data={data}
               cx="50%"
-              cy="50%"
+              cy="45%"
               labelLine={false}
               label={CustomLabel}
-              outerRadius={110}
+              outerRadius={90}
               fill="#8884d8"
               dataKey="value"
               animationBegin={0}
@@ -80,9 +80,12 @@ export const SpendingBreakdown = ({ transactions }: SpendingBreakdownProps) => {
             />
             <Legend 
               verticalAlign="bottom" 
-              height={36}
+              height={60}
               iconType="circle"
-              wrapperStyle={{ paddingTop: '20px' }}
+              wrapperStyle={{ 
+                paddingTop: '10px',
+                fontSize: '12px'
+              }}
             />
           </PieChart>
         </ResponsiveContainer>
