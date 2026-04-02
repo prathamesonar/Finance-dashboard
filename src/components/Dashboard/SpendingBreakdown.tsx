@@ -59,7 +59,7 @@ export const SpendingBreakdown = ({ transactions }: SpendingBreakdownProps) => {
               animationBegin={0}
               animationDuration={800}
             >
-              {data.map((entry, index) => (
+              {data.map((_, index) => (
                 <Cell 
                   key={`cell-${index}`} 
                   fill={COLORS[index % COLORS.length]}
