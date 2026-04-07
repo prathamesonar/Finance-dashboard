@@ -46,7 +46,7 @@ A modern, professional finance dashboard application built with React, TypeScrip
 - **Framework**: React 18.2.0
 - **Language**: TypeScript 5.2.2
 - **Styling**: Tailwind CSS 3.4.1
-- **State Management**: Zustand 4.5.2 with persist middleware
+- **State Management**: Zustand 4.5.2 
 - **Charts**: Recharts 2.12.2
 - **Icons**: Lucide React 0.344.0
 - **Date Utilities**: date-fns 3.3.1
@@ -94,12 +94,6 @@ finance-dashboard/
 └── README.md
 ```
 
-## Setup Instructions
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- npm or yarn package manager
 
 ### Installation
 
@@ -120,23 +114,7 @@ finance-dashboard/
 
 4. **Open your browser**
    - Navigate to `http://localhost:5173`
-   - The application should now be running
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-The production-ready files will be in the `dist` folder.
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## Usage Guide
 
 ### Role Switching
 
